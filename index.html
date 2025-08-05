@@ -7,33 +7,38 @@
     <title>Document</title>
   </head>
   <body>
-    <header>AI Sonneta Poem Generator</header>
+    <div class="container">
+      <header>
+        <h1>AI Sonneta Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Poem topic"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Poem topic"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>The poem</div>
-    </main>
+        <div class="poem">The poem</div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/dashboard">Tshiamiso Masiela</a> is open
-      sourced on
-      <a href="https://github.com/Tshiamiso-Masilela/Sonneta-poem-generator"
-        >github</a
-      >
-      and hosted on
-      <a href="https://sonneta-poem-generator.netlify.app/">Netlify</a>
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/dashboard">Tshiamiso Masiela</a> is open
+        sourced on
+        <a href="https://github.com/Tshiamiso-Masilela/Sonneta-poem-generator"
+          >github</a
+        >
+        and hosted on
+        <a href="https://sonneta-poem-generator.netlify.app/">Netlify</a>
+      </footer>
+    </div>
     <script src="src\index.js"></script>
   </body>
 </html>
