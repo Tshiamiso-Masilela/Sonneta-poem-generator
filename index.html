@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form class="poem-generator-form">
           <input
             type="text"
             placeholder="Poem topic"
@@ -25,7 +26,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="poem">The poem</div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
