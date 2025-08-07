@@ -11,24 +11,26 @@
   <body>
     <div class="container">
       <header>
-        <h1>AI Sonneta Poem Generator</h1>
+        <h1>AI Sonneta Generator</h1>
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Poem topic"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Poem topic"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">ie. love, flowers</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
